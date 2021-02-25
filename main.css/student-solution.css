@@ -86,3 +86,41 @@
     border-radius: 5%;
 }
 
+/* Esercizio 10 */
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin{
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
+/* Esercizio 11 */
+.ex-11-icon:hover{
+    animation: spinnotall 3s linear ;
+}
+
+@keyframes spinnotall{
+    0%{
+        transform: rotate(0);
+    }
+    95%{
+        transform: rotate(312deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+
+/* Esercizio 12 */
+.ex-12-top-white:hover{
+    
+}
+
+/* Esercizio 13 */
+
