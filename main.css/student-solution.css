@@ -119,22 +119,41 @@
 
 /* Esercizio 12 */
 .ex-12-button:hover .ex-12-top-white{
-    animation: moveWhite 2s linear infinite;
+    animation: moveWhiteTop 2s linear infinite;
 }
 
-@keyframes moveWhite{
+@keyframes moveWhiteTop{
     0%{
         left: 10%;
     }
     50%{
-        left: calc(100% - 60px)
+        left: calc(100% - 60px);
     
     }
     100%{
-        left: 10%
+        left: 10%;
     }
     
 }
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: moveWhiteBottom 2s linear infinite;
+}
+
+@keyframes moveWhiteBottom{
+    0%{
+        right: 10%;
+    }
+    50%{
+        right: calc(100% - 60px);
+    
+    }
+    100%{
+        right: 10%;
+    }
+    
+}
+
 
 /* Esercizio 13 */
 
